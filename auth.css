@@ -1,0 +1,17 @@
+* { box-sizing: border-box; }
+body { margin: 0; color: #172b4d; background: #f5f7fb; font: 15px/1.5 Arial, sans-serif; }
+header { padding: 24px max(22px, calc((100% - 1180px) / 2)); color: white; background: #182b56; }
+header h1 { margin: 0; font-size: 24px; }
+header p { margin: 5px 0 0; color: #cbd5e1; }
+main { max-width: 1180px; margin: 26px auto; padding: 0 20px 36px; }
+.panel { max-width: 430px; margin: 48px auto; padding: 22px; border: 1px solid #e2e8f0; border-radius: 12px; background: white; }
+.panel h2 { margin: 0 0 8px; font-size: 20px; }
+.subtext { margin: 0 0 18px; color: #64748b; font-size: 13px; }
+form { display: grid; gap: 14px; }
+label { display: block; color: #475569; font-size: 13px; font-weight: 600; }
+input { width: 100%; margin-top: 6px; padding: 10px 11px; border: 1px solid #cbd5e1; border-radius: 7px; color: #172b4d; font: inherit; }
+button { padding: 10px 14px; border: 0; border-radius: 7px; color: white; background: #3156d3; cursor: pointer; font: inherit; font-weight: 600; }
+.flash { padding: 12px 14px; border-radius: 8px; margin-bottom: 16px; }
+.flash.success { color: #166534; background: #dcfce7; }
+.flash.error { color: #991b1b; background: #fee2e2; }
+.link { color: #3156d3; }
